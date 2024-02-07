@@ -181,7 +181,6 @@ const updateProfileController = async (req, res) => {
       updatedUser,
     });
   } catch (error) {
-    ;
     res.status(400).send({
       success: false,
       message: "Error WHile Update profile",
